@@ -11,7 +11,7 @@ public class CakeTest {
         Factory factory = new CakeFactory();
         cake = factory.createCake("BlackForest");
         cake.aboutCake();;
-        //cake.recipe();
+        cake.recipe();
 
     }
 }
