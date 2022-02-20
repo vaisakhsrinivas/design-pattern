@@ -13,6 +13,13 @@ public class CakeFactory implements Factory {
             cake = new BlackForest();
         }
 
+        else if (cakeName.equals("BlueBerry")) {
+            cake = new BlueBerry();
+        }
+        else if (cakeName.equals("Strawberry")) {
+            cake = new Strawberry();
+        }
+
         return cake;
     }
 }
