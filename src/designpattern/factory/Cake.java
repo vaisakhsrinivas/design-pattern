@@ -47,5 +47,7 @@ public abstract class Cake {
     }
     public void packCake(){
 
+        System.out.println("Your "+name+" Cake has been packed");
+
     }
 }
