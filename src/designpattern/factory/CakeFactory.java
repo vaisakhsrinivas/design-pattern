@@ -19,7 +19,6 @@ public class CakeFactory implements Factory {
         else if (cakeName.equals("Strawberry")) {
             cake = new Strawberry();
         }
-
         return cake;
     }
 }
